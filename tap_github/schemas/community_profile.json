@@ -1,0 +1,133 @@
+{
+  "type": ["null", "object"],
+  "additionalProperties": false,
+  "properties": {
+    "_sdc_repository": {
+      "type": ["string"]
+    },
+    "health_percentage": {
+      "type": ["null", "integer"]
+    },
+    "description": {
+      "type": ["null", "string"]
+    },
+    "documentation": {
+      "type": ["null", "string"]
+    },
+    "files": {
+      "type": ["null", "object"],
+      "additionalProperties": false,
+      "properties": {
+        "code_of_conduct": {
+          "type": ["null", "object"],
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": ["null", "string"]
+            },
+            "key": {
+              "type": ["null", "string"]
+            },
+            "url": {
+              "type": ["null", "string"]
+            },
+            "html_url": {
+              "type": ["null", "string"]
+            }
+          }
+        },
+        "code_of_conduct_file": {
+          "type": ["null", "object"],
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": ["null", "string"]
+            },
+            "html_url": {
+              "type": ["null", "string"]
+            }
+          }
+        },
+        "contributing": {
+          "type": ["null", "object"],
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": ["null", "string"]
+            },
+            "html_url": {
+              "type": ["null", "string"]
+            }
+          }
+        },
+        "issue_template": {
+          "type": ["null", "object"],
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": ["null", "string"]
+            },
+            "html_url": {
+              "type": ["null", "string"]
+            }
+          }
+        },
+        "pull_request_template": {
+          "type": ["null", "object"],
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": ["null", "string"]
+            },
+            "html_url": {
+              "type": ["null", "string"]
+            }
+          }
+        },
+        "license": {
+          "type": ["null", "object"],
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": ["null", "string"]
+            },
+            "key": {
+              "type": ["null", "string"]
+            },
+            "spdx_id": {
+              "type": ["null", "string"]
+            },
+            "url": {
+              "type": ["null", "string"]
+            },
+            "html_url": {
+              "type": ["null", "string"]
+            },
+            "node_id": {
+              "type": ["null", "string"]
+            }
+          }
+        },
+        "readme": {
+          "type": ["null", "object"],
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": ["null", "string"]
+            },
+            "html_url": {
+              "type": ["null", "string"]
+            }
+          }
+        }
+      }
+    },
+    "update_at": {
+      "type": ["null", "string"],
+      "format": "date-time"
+    },
+    "content_reports_enabled": {
+      "type": ["null", "boolean"]
+    }
+  }
+}
